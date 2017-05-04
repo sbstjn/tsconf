@@ -1,0 +1,34 @@
+{
+  "name": "tsconf",
+  "version": "0.0.0",
+  "description": "Easy way to create a strict tsconfig.json file.",
+  "main": "scripts/install.sh",
+  "scripts": {
+    "start": "./scripts/install.sh",
+    "postinstall": "./scripts/backup.sh && ./scripts/install.sh"
+  },
+  "keywords": [
+    "tslint",
+    "jslint",
+    "eslint",
+    "tsconf",
+    "tsconfig",
+    "typescript",
+    "lint",
+    "standardjs",
+    "standardts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbstjn/tsconf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sbstjn/tsconf/issues"
+  },
+  "homepage": "https://github.com/sbstjn/tsconf#readme",
+  "author": "Sebastian Müller <mail@sbstjn.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.2.0"
+  }
+}
