@@ -5,7 +5,8 @@
   "main": "scripts/install.sh",
   "scripts": {
     "start": "./scripts/install.sh",
-    "postinstall": "./scripts/backup.sh && ./scripts/install.sh"
+    "postinstall": "./scripts/backup.sh && ./scripts/install.sh",
+    "test": "echo \"Done.\""
   },
   "keywords": [
     "tslint",
